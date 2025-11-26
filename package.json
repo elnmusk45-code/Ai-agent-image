@@ -1,0 +1,18 @@
+{
+  "name": "lmarena-image-agent",
+  "version": "1.0.0",
+  "description": "AI Image Agent for LMArena.ai batch processing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "archiver": "^6.0.1",
+    "uuid": "^9.0.0"
+  }
+}
